@@ -55,17 +55,18 @@ double ha1,ha2,h3;
 
 	
 	// MATRIKS R * W
-	RWa1c1 = Ra1c1*w1;
-	RWa1c2 = Ra1c2*w2;
-	RWa1c3 = Ra1c3*w3;
-	RWa1c4 = Ra1c4*w4;
-	RWa1c5 = Ra1c5*w5;
+	cout << "MATRIKS R * W :"<<endl;
+		double RWa[3][5];
+	for(int i=0;i<3;i++){
+		for(int j=0;j<5;j++){
+			RWa[i][j]=Ra[i][j]*w[j];
+			cout<< RWa[i][j]<<" | ";
+		}
+		cout<<endl;
+	}
+	cout << endl;
 
-	RWa2c1 = Ra2c1*w1;
-	RWa2c2 = Ra2c2*w2;
-	RWa2c3 = Ra2c3*w3;
-	RWa2c4 = Ra2c4*w4;
-	RWa2c5 = Ra2c5*w5;
+	
 	
 	RWa3c1 = Ra3c1*w1;
 	RWa3c2 = Ra3c2*w2;
