@@ -14,30 +14,15 @@ double ha1,ha2,h3;
 	cout.setf(ios::showpoint);
 	cout.precision(4);
 
-	// ISI DATA
-	w1=5;
-	w2=3;
-	w3=4;
-	w4=4;
-	w5=2;
+	// MENAMPILKAN NILAI
+	cout<<"MATRIKS X :"<<endl;
+	for(int i=0;i<3;i++){
+		for(int j=0;j<5;j++){
+	cout<< a[i][j] <<" | ";
+		}
+		cout<<endl;
+	}
 	
-	a1c1=4;
-	a1c2=4;
-	a1c3=5;
-	a1c4=3;
-	a1c5=3;
-	
-	a2c1=3;
-	a2c2=3;
-	a2c3=4;
-	a2c4=2;
-	a2c5=3;
-	
-	a3c1=5;
-	a3c2=4;
-	a3c3=2;
-	a3c4=2;
-	a3c5=2;
 	
 	// AMBIL NILAI MAX TIAP KRITERIA
 	mc1=max(a1c1,max(a2c1,a3c1));
