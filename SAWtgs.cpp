@@ -72,4 +72,6 @@ double ha1,ha2,h3;
 	
 	// PENJUMLAHAN HASIL AKHIR	
 		cout << "HASIL AKHIR  :"<<endl;
-	for(int i=0;i<3;i++)
+	for(int i=0;i<3;i++){
+		cout<<"Hasil "<<i+1<<" = "<<RWa[i][0]+RWa[i][1]+RWa[i][2]+RWa[i][3]+RWa[i][4]<<endl;	
+	}
