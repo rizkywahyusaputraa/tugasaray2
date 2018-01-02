@@ -54,7 +54,7 @@ double ha1,ha2,h3;
 	cout << endl;
 
 	
-	// MATRIKS R * W
+	// MATRIKS R*W
 	cout << "MATRIKS R * W :"<<endl;
 		double RWa[3][5];
 	for(int i=0;i<3;i++){
@@ -70,8 +70,9 @@ double ha1,ha2,h3;
 	
 	
 	
-	// PENJUMLAHAN HASIL AKHIR	
+	// PENJUMLAHAN HASIL AKHIR	R W
 		cout << "HASIL AKHIR  :"<<endl;
 	for(int i=0;i<3;i++){
 		cout<<"Hasil "<<i+1<<" = "<<RWa[i][0]+RWa[i][1]+RWa[i][2]+RWa[i][3]+RWa[i][4]<<endl;	
-	}
+	}	cout<<endl;
+}
